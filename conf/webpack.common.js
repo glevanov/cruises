@@ -5,10 +5,10 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 const CssoWebpackPlugin = require("csso-webpack-plugin").default;
 
 module.exports = {
-  entry: "./src/js/main.js",
+  entry: "./src/index.js",
   output: {
     path: path.resolve(process.cwd(), "./dist"),
-    filename: "main.js"
+    filename: "index.js"
   },
   module: {
     rules: [
