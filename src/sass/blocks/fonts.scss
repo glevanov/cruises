@@ -3,17 +3,17 @@
   font-style: normal;
   font-weight: 400;
   src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"),
-    url("../../fonts/roboto-slab-v7-latin_cyrillic-regular.woff2")
+    url("../fonts/roboto-slab-v7-latin_cyrillic-regular.woff2")
       format("woff2"),
-    url("../../fonts/roboto-slab-v7-latin_cyrillic-regular.woff") format("woff");
+    url("../fonts/roboto-slab-v7-latin_cyrillic-regular.woff") format("woff");
 }
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"),
-    url("../../fonts/roboto-slab-v7-latin_cyrillic-700.woff2") format("woff2"),
-    url("../../fonts/roboto-slab-v7-latin_cyrillic-700.woff") format("woff");
+    url("../fonts/roboto-slab-v7-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/roboto-slab-v7-latin_cyrillic-700.woff") format("woff");
 }
 @font-face {
   font-family: "Raleway";
