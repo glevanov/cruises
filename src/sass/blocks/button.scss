@@ -1,0 +1,10 @@
+.button {
+  display: block;
+  border: none;
+  font: inherit;
+  text-decoration: none;
+  min-width: 202px;
+  background-color: $color-tag-accent;
+  text-align: center;
+  @include text-style(14px, 48px, $color-text-contrast, 400, $font-stack-accent);
+}

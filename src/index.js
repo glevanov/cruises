@@ -1,1 +1,11 @@
 import "./sass/main.scss";
+import "./img/logo-mobile.webp";
+import "./img/logo-mobile.png";
+import "./img/social-insta.png";
+import "./img/social-insta.webp";
+import "./img/social-ok.png";
+import "./img/social-ok.webp";
+import "./img/social-vk.png";
+import "./img/social-vk.webp";
+import "./img/social-youtube.png";
+import "./img/social-youtube.webp";

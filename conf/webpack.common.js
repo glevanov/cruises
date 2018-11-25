@@ -47,7 +47,7 @@ module.exports = {
         exclude: path.resolve(process.cwd(), "./src/img/")
       },
       {
-        test: /\.(svg|jpg|png)$/,
+        test: /\.(svg|jpg|png|webp)$/,
         loader: "file-loader?name=img/[name].[ext]",
         exclude: path.resolve(process.cwd(), "./src/fonts/")
       }

@@ -1,0 +1,32 @@
+.intro {
+  background-image: url("../img/top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 583px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  background-image: url("../img/top.webp");
+}
+
+.intro__header {
+  @include text-style(20px, 48px);
+  text-align: center;
+  width: 250px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+
+  &--accent {
+    @include text-style(50px, 48px);
+    text-transform: uppercase;
+  }
+}
+
+.intro__logo {
+  margin-top: 25px;
+}
