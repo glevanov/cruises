@@ -19,22 +19,19 @@
   font-style: normal;
   font-weight: 400;
   src: local("Raleway"), local("Raleway-Regular"),
-    url("../fonts/raleway-v12-latin-regular.woff2") format("woff2"),
-    url("../fonts/raleway-v12-latin-regular.woff") format("woff");
+    url("../fonts/Raleway-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Raleway";
   font-style: italic;
   font-weight: 400;
   src: local("Raleway Italic"), local("Raleway-Italic"),
-    url("../fonts/raleway-v12-latin-italic.woff2") format("woff2"),
-    url("../fonts/raleway-v12-latin-italic.woff") format("woff");
+    url("../fonts/Raleway-Regular-Italic.woff") format("woff");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   src: local("Raleway Bold"), local("Raleway-Bold"),
-    url("../fonts/raleway-v12-latin-700.woff2") format("woff2"),
-    url("../fonts/raleway-v12-latin-700.woff") format("woff");
+    url("../fonts/Raleway-Bold.woff") format("woff");
 }
