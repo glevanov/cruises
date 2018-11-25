@@ -1,0 +1,7 @@
+.feed {
+  @include reset-list;
+  display: grid;
+  grid-gap: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

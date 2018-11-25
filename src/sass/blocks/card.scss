@@ -1,0 +1,76 @@
+.card {
+  background-color: $color-bg-main;
+  width: 290px;
+}
+
+.card__heading,
+.card__destination,
+.card__price {
+  margin: 0;
+}
+
+.card__heading {
+  @include text-style(18px, 22px, $color-text-accent);
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.card__destination {
+  @include text-style(14px, 24px, $color-text-main, 400, $font-stack-accent);
+
+  &--accent {
+    font-weight: 700;
+  }
+}
+
+.card__price {
+  @include text-style(30px, 48px);
+
+  &--previous {
+    font-size: 18px;
+    color: rgba($color-text-main, 0.55);
+    text-decoration: line-through;
+  }
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+  margin-right: 10px;
+}
+
+.card__price-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card__image {
+  height: 228px;
+  background-size: 290px 228px;
+  background-repeat: no-repeat;
+
+  &--anapa {
+    background-image: url("../img/1-anapa.webp");
+    background-image: url("../img/1-anapa.jpg");
+  }
+
+  &--sochi {
+    background-image: url("../img/2-sochi.webp");
+    background-image: url("../img/2-sochi.jpg");
+  }
+
+  &--gelendzhik {
+    background-image: url("../img/3-gelendzhik.webp");
+    background-image: url("../img/3-gelendzhik.jpg");
+  }
+
+  &--novorossiysk {
+    background-image: url("../img/4-novorossiysk.webp");
+    background-image: url("../img/4-novorossiysk.jpg");
+  }
+}
