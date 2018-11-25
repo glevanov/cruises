@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/.nojekyll":
+/*!***********************!*\
+  !*** ./src/.nojekyll ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/.nojekyll?");
+
+/***/ }),
+
 /***/ "./src/img/logo-mobile.png":
 /*!*********************************!*\
   !*** ./src/img/logo-mobile.png ***!
@@ -204,7 +215,7 @@ eval("module.exports = __webpack_require__.p + \"img/social-youtube.webp\";\n\n/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n\n__webpack_require__(/*! ./img/logo-mobile.webp */ \"./src/img/logo-mobile.webp\");\n\n__webpack_require__(/*! ./img/logo-mobile.png */ \"./src/img/logo-mobile.png\");\n\n__webpack_require__(/*! ./img/social-insta.png */ \"./src/img/social-insta.png\");\n\n__webpack_require__(/*! ./img/social-insta.webp */ \"./src/img/social-insta.webp\");\n\n__webpack_require__(/*! ./img/social-ok.png */ \"./src/img/social-ok.png\");\n\n__webpack_require__(/*! ./img/social-ok.webp */ \"./src/img/social-ok.webp\");\n\n__webpack_require__(/*! ./img/social-vk.png */ \"./src/img/social-vk.png\");\n\n__webpack_require__(/*! ./img/social-vk.webp */ \"./src/img/social-vk.webp\");\n\n__webpack_require__(/*! ./img/social-youtube.png */ \"./src/img/social-youtube.png\");\n\n__webpack_require__(/*! ./img/social-youtube.webp */ \"./src/img/social-youtube.webp\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\n__webpack_require__(/*! ./.nojekyll */ \"./src/.nojekyll\");\n\n__webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n\n__webpack_require__(/*! ./img/logo-mobile.webp */ \"./src/img/logo-mobile.webp\");\n\n__webpack_require__(/*! ./img/logo-mobile.png */ \"./src/img/logo-mobile.png\");\n\n__webpack_require__(/*! ./img/social-insta.png */ \"./src/img/social-insta.png\");\n\n__webpack_require__(/*! ./img/social-insta.webp */ \"./src/img/social-insta.webp\");\n\n__webpack_require__(/*! ./img/social-ok.png */ \"./src/img/social-ok.png\");\n\n__webpack_require__(/*! ./img/social-ok.webp */ \"./src/img/social-ok.webp\");\n\n__webpack_require__(/*! ./img/social-vk.png */ \"./src/img/social-vk.png\");\n\n__webpack_require__(/*! ./img/social-vk.webp */ \"./src/img/social-vk.webp\");\n\n__webpack_require__(/*! ./img/social-youtube.png */ \"./src/img/social-youtube.png\");\n\n__webpack_require__(/*! ./img/social-youtube.webp */ \"./src/img/social-youtube.webp\");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
