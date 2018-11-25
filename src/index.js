@@ -1,3 +1,4 @@
+import "./.nojekyll";
 import "./sass/main.scss";
 import "./img/logo-mobile.webp";
 import "./img/logo-mobile.png";
