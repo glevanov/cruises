@@ -1,0 +1,18 @@
+.catalog {
+  background-color: $color-bg-contrast;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog__heading {
+  margin: 0;
+
+  @include text-style(20px, 48px);
+}
+
+.catalog__sort {
+  margin: 0;
+
+  @include text-style(14px, 24px, $color-text-main, 400, $font-stack-accent);
+}

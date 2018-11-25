@@ -15,7 +15,13 @@ $color-bg-contrast: #f3f3f3;
   padding: 0;
 }
 
-@mixin text-style($size, $line-height: 0, $color: $color-text-main, $font-weight: 400, $font-stack: $font-stack-default) {
+@mixin text-style(
+  $size,
+  $line-height: 0,
+  $color: $color-text-main,
+  $font-weight: 400,
+  $font-stack: $font-stack-default
+) {
   font-family: $font-stack;
   font-size: $size;
   line-height: $line-height;
