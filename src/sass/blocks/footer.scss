@@ -1,5 +1,6 @@
 .footer {
   padding-top: 25px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +16,7 @@
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .footer__tel-number {

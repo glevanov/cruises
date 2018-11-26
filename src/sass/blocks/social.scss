@@ -1,0 +1,21 @@
+.social {
+  @include reset-list;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.social picture {
+  line-height: 0;
+}
+
+.social__link {
+  display: flex;
+  background-color: $color-text-main;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
