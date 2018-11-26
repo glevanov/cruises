@@ -7,8 +7,18 @@
 
 .catalog__heading {
   margin: 0;
+  position: relative;
 
   @include text-style(20px, 48px);
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 240px;
+    background-image: url("../img/dots.webp");
+    background-image: url("../img/dots.png");
+  }
 }
 
 .catalog__sort {
