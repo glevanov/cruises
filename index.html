@@ -32,11 +32,13 @@
       <ul class="feed">
         <li>
           <article class="card">
-            <div class="card__image card__image--anapa">
-              <p class="card__tag card__tag--accent"></p>
-            </div>
+            <a href="#">
+              <div class="card__image card__image--anapa">
+                <p class="card__tag card__tag--accent">Хит продаж</p>
+              </div>
+            </a>
             <div class="card__content">
-              <h3 class="card__heading">Морская прогулка в Анапу</h3>
+              <a class="card__heading" href="#">Морская прогулка в Анапу</a>
               <p class="card__destination">
                 <span class="card__destination--accent">Маршрут:</span>
                 Сочи-Лазаревское-Геленджик-Анапа
@@ -44,19 +46,23 @@
               <p class="card__destination">
                 <span class="card__destination--accent">Продолжительность:</span>
                 10 ч. 0 мин.</p>
-              <div class="card__price-wrap">
-                <p class="card__price">49 000 руб.</p>
-              </div>
+              <a href="#">
+                <div class="card__price-wrap">
+                  <p class="card__price">49 000 руб.</p>
+                </div>
+              </a>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <div class="card__image card__image--sochi">
-              <p class="card__tag"></p>
-            </div>
+            <a href="#">
+              <div class="card__image card__image--sochi">
+                <p class="card__tag">Акция</p>
+              </div>
+            </a>
             <div class="card__content">
-              <h3 class="card__heading">Обзорная морская прогулка с экскурсией</h3>
+              <a class="card__heading" href="#">Обзорная морская прогулка с экскурсией</a>
               <p class="card__destination">
                 <span class="card__destination--accent">Маршрут:</span>
                 Сочи-Адлер-Сочи (без высадки)
@@ -65,20 +71,24 @@
                 <span class="card__destination--accent">Продолжительность:</span>
                 1 ч. 0 мин.
               </p>
-              <div class="card__price-wrap">
-                <p class="card__price">5 000 руб.</p>
-                <p class="card__price card__price--previous">15000 руб.</p>
-              </div>
+              <a href="#">
+                <div class="card__price-wrap">
+                  <p class="card__price">5 000 руб.</p>
+                  <p class="card__price card__price--previous">15000 руб.</p>
+                </div>
+              </a>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <div class="card__image card__image--gelendzhik">
-              <p class="card__tag"></p>
-            </div>
+            <a href="#">
+              <div class="card__image card__image--gelendzhik">
+                <p class="card__tag">скидка<br>10%</p>
+              </div>
+            </a>
             <div class="card__content">
-              <h3 class="card__heading">Морская прогулка в Геленджик</h3>
+              <a class="card__heading" href="#">Морская прогулка в Геленджик</a>
               <p class="card__destination">
                 <span class="card__destination--accent">Маршрут:</span>
                 Сочи-Туапсе-Геленджик
@@ -87,20 +97,22 @@
                 <span class="card__destination--accent">Продолжительность:</span>
                 12 ч. 30 мин.
               </p>
-              <div class="card__price-wrap">
-                <p class="card__price">7 000 руб.</p>
-                <p class="card__price card__price--previous">10000 руб.</p>
-              </div>
+              <a href="#">
+                <div class="card__price-wrap">
+                  <p class="card__price">7 000 руб.</p>
+                  <p class="card__price card__price--previous">10000 руб.</p>
+                </div>
+              </a>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <div class="card__image card__image--novorossiysk">
-              <p class="card__tag"></p>
-            </div>
+            <a href="#">
+              <div class="card__image card__image--novorossiysk"></div>
+            </a>
             <div class="card__content">
-              <h3 class="card__heading">Морской круиз в Новороссийск</h3>
+              <a class="card__heading" href="#">Морской круиз в Новороссийск</a>
               <p class="card__destination">
                 <span class="card__destination--accent">Маршрут:</span>
                 Сочи-Геленджик-Новороссйиск-Геленджик-Сочи
@@ -108,49 +120,59 @@
               <p class="card__destination">
                 <span class="card__destination--accent">Продолжительность:</span>
                 13 ч. 0 мин.</p>
-              <div class="card__price-wrap">
-                <p class="card__price">14 800 руб.</p>
-              </div>
+              <a href="#">
+                <div class="card__price-wrap">
+                  <p class="card__price">14 800 руб.</p>
+                </div>
+              </a>
             </div>
           </article>
         </li>
       </ul>
 
-      <a class="button" href="#">Больше круизов</a>
+      <a class="button catalog__button" href="#">Больше круизов</a>
     </section>
   </main>
 
   <footer class="footer">
-    <h2>Будь на связи:</h2>
+    <h2 class="footer__tagline">Будь на связи:</h2>
     <ul class="social">
       <li>
-        <picture>
-          <source srcset="img/social-vk.webp" type="image/webp">
-          <img src="img/social-vk.png" alt="Вконтакте" width="18" height="11">
-        </picture>
+        <a href="#" class="social__link">
+          <picture>
+            <source srcset="img/social-vk.webp" type="image/webp">
+            <img src="img/social-vk.png" alt="Вконтакте" width="18" height="11">
+          </picture>
+        </a>
       </li>
       <li>
-        <picture>
-          <source srcset="img/social-ok.webp" type="image/webp">
-          <img src="img/social-ok.png" alt="Одноклассники" width="10" height="16">
-        </picture>
+        <a href="#" class="social__link">
+          <picture>
+            <source srcset="img/social-ok.webp" type="image/webp">
+            <img src="img/social-ok.png" alt="Одноклассники" width="10" height="16">
+          </picture>
+        </a>
       </li>
       <li>
-        <picture>
-          <source srcset="img/social-youtube.webp" type="image/webp">
-          <img src="img/social-youtube.png" alt="Ютуб" width="14" height="18">
-        </picture>
+        <a href="#" class="social__link">
+          <picture>
+            <source srcset="img/social-youtube.webp" type="image/webp">
+            <img src="img/social-youtube.png" alt="Ютуб" width="14" height="18">
+          </picture>
+        </a>
       </li>
       <li>
-        <picture>
-          <source srcset="img/social-insta.webp" type="image/webp">
-          <img src="img/social-insta.png" alt="Инстаграм" width="14" height="14">
-        </picture>
+        <a href="#" class="social__link">
+          <picture>
+            <source srcset="img/social-insta.webp" type="image/webp">
+            <img src="img/social-insta.png" alt="Инстаграм" width="14" height="14">
+          </picture>
+        </a>
       </li>
     </ul>
-    <p>8 800 500-61-05</p>
-    <p>Круглосуточная поддержка</p>
-    <p>© 2016 OOO «Городские Круизы»</p>
+    <p class="footer__tel-number">8 800 500-61-05</p>
+    <p class="footer__tel-message">Круглосуточная поддержка</p>
+    <p class="footer__copyright">© 2016 OOO «Городские Круизы»</p>
   </footer>
 <script type="text/javascript" src="index.js"></script></body>
 </html>
