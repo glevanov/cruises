@@ -50,6 +50,10 @@ module.exports = {
         test: /\.(svg|jpg|png|webp)$/,
         loader: "file-loader?name=img/[name].[ext]",
         exclude: path.resolve(process.cwd(), "./src/fonts/")
+      },
+      {
+        test: /\.nojekyll$/,
+        loader: "file-loader?name=[name]",
       }
     ]
   },
