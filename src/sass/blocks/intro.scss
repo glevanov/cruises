@@ -1,5 +1,6 @@
 .intro {
   background-color: #c8e2fd;
+  background-image: url("../img/top.webp");
   background-image: url("../img/top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,10 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.intro {
-  background-image: url("../img/top.webp");
 }
 
 .intro__heading {
