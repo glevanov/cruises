@@ -37,4 +37,17 @@
 .catalog__button {
   margin-top: 20px;
   margin-bottom: 31px;
+
+  &::after {
+    content: "";
+    right: -15px;
+    top: 0;
+    display: inline-block;
+    position: relative;
+    width: 5px;
+    height: 8px;
+    transform: rotate(90deg);
+
+    @include svg-triangle($color-text-contrast);
+  }
 }
