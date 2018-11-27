@@ -91,9 +91,9 @@
   !*** ./src/.nojekyll ***!
   \***********************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("\n\n//# sourceURL=webpack:///./src/.nojekyll?");
+eval("module.exports = __webpack_require__.p + \".nojekyll\";\n\n//# sourceURL=webpack:///./src/.nojekyll?");
 
 /***/ }),
 
