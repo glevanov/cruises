@@ -17,5 +17,8 @@
   &:hover,
   &:focus {
     background-color: darken($color-tag-accent, 10%);
+    box-shadow: 0 0 15px lighten($color-tag-accent, 20%);
+    outline: none;
+    text-decoration: underline;
   }
 }
