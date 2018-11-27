@@ -48,6 +48,7 @@
   flex-direction: column;
   margin-left: 22px;
   margin-right: 10px;
+  min-height: 240px;
 
   & a {
     text-decoration: none;
@@ -115,4 +116,9 @@
   &--accent {
     @include svg-tag($color-tag-accent);
   }
+}
+
+.card__price {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
