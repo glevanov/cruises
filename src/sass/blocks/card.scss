@@ -3,33 +3,43 @@
   width: 290px;
 }
 
-.card__heading,
-.card__destination,
-.card__price {
-  margin: 0;
-}
-
 .card__heading {
-  @include text-style(18px, 22px, $color-text-accent);
+  margin: 0;
   margin-top: 25px;
   margin-bottom: 5px;
+  width: 220px;
+  text-decoration: none;
+
+  @include text-style(18px, 22px, $color-text-accent);
+
+  &:hover,
+  &:focus {
+    color: lighten($color-text-accent, 20%);
+
+    &::after {
+      @include svg-triangle(lighten($color-text-accent, 20%));
+    }
+  }
+
+  &::after {
+    content: "";
+    right: -15px;
+    top: 0;
+    display: inline-block;
+    position: relative;
+    width: 5px;
+    height: 8px;
+
+    @include svg-triangle($color-text-accent);
+  }
 }
 
 .card__destination {
+  margin: 0;
   @include text-style(14px, 24px, $color-text-main, 400, $font-stack-accent);
 
   &--accent {
     font-weight: 700;
-  }
-}
-
-.card__price {
-  @include text-style(30px, 48px);
-
-  &--previous {
-    font-size: 18px;
-    color: rgba($color-text-main, 0.55);
-    text-decoration: line-through;
   }
 }
 
@@ -38,16 +48,14 @@
   flex-direction: column;
   margin-left: 22px;
   margin-right: 10px;
+
+  & a {
+    text-decoration: none;
+  }
 }
 
-.card__price-wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+// TODO Вынести цену в отдельный блок, повесить на ссылку
+// TODO Накидать свечение на кнопку при ховере
 
 .card__image {
   height: 228px;
@@ -74,13 +82,20 @@
     background-image: url("../img/4-novorossiysk.webp");
     background-image: url("../img/4-novorossiysk.jpg");
   }
+
+  &:hover .card__tag {
+    @include svg-tag(darken($color-tag-main, 5%));
+  }
+
+  &:hover .card__tag--accent {
+    @include svg-tag(darken($color-tag-accent, 10%));
+  }
 }
 
 .card__tag {
   margin: 0;
   width: 89px;
   height: 101px;
-  background-image: url("../img/tag-regular.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: -7px;
@@ -91,9 +106,16 @@
   align-items: center;
   justify-content: center;
 
-  @include text-style(14px, 18px, $color-text-contrast, 400, $font-stack-accent);
+  @include text-style(
+    14px,
+    18px,
+    $color-text-contrast,
+    400,
+    $font-stack-accent
+  );
+  @include svg-tag($color-tag-main);
 
   &--accent {
-    background-image: url("../img/tag-accent.svg");
+    @include svg-tag($color-tag-accent);
   }
 }

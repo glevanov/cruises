@@ -1,0 +1,31 @@
+.price {
+  &:hover,
+  &:focus {
+    & .price__value {
+      color: $color-tag-main;
+      &--previous {
+        color: rgba($color-text-main, 0.55);
+      }
+    }
+  }
+}
+
+.price__wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.price__value {
+  margin: 0;
+  @include text-style(30px, 48px);
+
+  &--previous {
+    font-size: 18px;
+    color: rgba($color-text-main, 0.55);
+    text-decoration: line-through;
+  }
+}

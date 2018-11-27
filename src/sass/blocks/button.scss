@@ -6,5 +6,16 @@
   min-width: 202px;
   background-color: $color-tag-accent;
   text-align: center;
-  @include text-style(14px, 48px, $color-text-contrast, 400, $font-stack-accent);
+  @include text-style(
+    14px,
+    48px,
+    $color-text-contrast,
+    400,
+    $font-stack-accent
+  );
+
+  &:hover,
+  &:focus {
+    background-color: darken($color-tag-accent, 10%);
+  }
 }
