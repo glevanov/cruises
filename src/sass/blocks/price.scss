@@ -1,4 +1,6 @@
 .price {
+  margin-top: auto;
+
   &:hover,
   &:focus {
     & .price__value {
