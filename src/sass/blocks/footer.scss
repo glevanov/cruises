@@ -29,7 +29,26 @@
   display: none;
 }
 
+.footer__copyright-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (min-width: $width-tablet) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .footer__navigation {
     display: flex;
     flex-direction: column;
@@ -39,5 +58,9 @@
 
   .footer__tel {
     margin-top: 0;
+  }
+
+  .footer__social-wrap {
+    align-items: flex-start;
   }
 }
