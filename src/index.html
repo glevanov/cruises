@@ -7,7 +7,26 @@
 </head>
 <body class="page">
   <header class="header">
-    <button class="burger header__burger" type="button">Открыть / закрыть меню</button>
+    <nav class="navigation">
+      <button class="burger header__burger" type="button">Открыть / закрыть меню</button>
+      <ul class="navigation__list">
+        <li class="navigation__list-item">
+          <p class="navigation__item">Личный кабинет</p>
+        </li>
+        <li class="navigation__list-item">
+          <p class="navigation__item">Рубль</p>
+        </li>
+        <li class="navigation__list-item">
+          <p class="navigation__item">Ru</p>
+        </li>
+        <li class="navigation__list-item">
+          <div class="navigation__contacts-wrap">
+            <p class="navigation__tel-number">8 800 500-61-05</p>
+            <p class="navigation__tel-message">Круглосуточная поддержка</p>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </header>
   
   <main>
@@ -135,6 +154,12 @@
   </main>
 
   <footer class="footer">
+    <ul class="footer__navigation">
+      <li class="footer__navigation-item">Вход для партнеров</li>
+      <li class="footer__navigation-item">О компании</li>
+      <li class="footer__navigation-item">Контакты</li>
+    </ul>
+
     <h2 class="footer__tagline">Будь на связи:</h2>
     <ul class="social">
       <li>
@@ -170,8 +195,11 @@
         </a>
       </li>
     </ul>
-    <p class="footer__tel-number">8 800 500-61-05</p>
-    <p class="footer__tel-message">Круглосуточная поддержка</p>
+
+    <div class="contacts">
+      <p class="footer__tel-number">8 800 500-61-05</p>
+      <p class="footer__tel-message">Круглосуточная поддержка</p>
+    </div>
     <p class="footer__copyright">© 2016 OOO «Городские Круизы»</p>
   </footer>
 </body>
