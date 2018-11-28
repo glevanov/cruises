@@ -1,0 +1,21 @@
+.navigation__list {
+  display: none;
+}
+
+@media (min-width: $width-tablet) {
+  .navigation {
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation__list {
+    @include reset-list;
+    width: 512px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

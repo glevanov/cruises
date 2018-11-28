@@ -5,3 +5,9 @@
   top: 27px;
   position: absolute;
 }
+
+@media (min-width: $width-tablet) {
+  .header {
+    left: calc(50% - 720px / 2)
+  }
+}

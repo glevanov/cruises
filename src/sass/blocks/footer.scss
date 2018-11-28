@@ -4,12 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   font-family: $font-stack-accent;
   color: $color-text-main;
-}
-
-.footer__social {
 }
 
 .footer__tagline {
@@ -19,22 +15,29 @@
   font-weight: 400;
 }
 
-.footer__tel-number {
-  margin: 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
+.footer__tel {
   margin-top: 15px;
-}
-
-.footer__tel-message {
-  margin: 0;
-  font-size: 10px;
-  line-height: 24px;
 }
 
 .footer__copyright {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+}
+
+.footer__navigation {
+  display: none;
+}
+
+@media (min-width: $width-tablet) {
+  .footer__navigation {
+    display: flex;
+    flex-direction: column;
+
+    @include reset-list;
+  }
+
+  .footer__tel {
+    margin-top: 0;
+  }
 }
