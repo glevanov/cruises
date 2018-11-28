@@ -13,3 +13,15 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: $width-tablet) {
+  .feed {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px 30px;
+  }
+
+  .feed__item {
+    margin-bottom: 0;
+  }
+}

@@ -118,3 +118,34 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+@media (min-width: $width-tablet) {
+  .card {
+    width: 345px;
+  }
+
+  .card__content {
+    min-height: 236px;
+  }
+
+  .card__image {
+    height: 272px;
+    background-size: 345px 272px;
+
+    &--anapa {
+      background-image: url("../img/1-anapa-tab.jpg");
+    }
+
+    &--sochi {
+      background-image: url("../img/2-sochi-tab.jpg");
+    }
+
+    &--gelendzhik {
+      background-image: url("../img/3-gelendzhik-tab.jpg");
+    }
+
+    &--novorossiysk {
+      background-image: url("../img/4-novorossiysk-tab.jpg");
+    }
+  }
+}

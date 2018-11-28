@@ -64,3 +64,15 @@
     @include svg-triangle($color-text-contrast);
   }
 }
+
+@media (min-width: $width-tablet) {
+  .catalog__heading {
+    font-size: 26px;
+    line-height: 48px;
+  }
+
+  .catalog__button {
+    margin-top: 25px;
+    margin-bottom: 62px;
+  }
+}

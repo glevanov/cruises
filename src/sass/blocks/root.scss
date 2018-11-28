@@ -9,6 +9,9 @@ $color-text-contrast: #ffffff;
 $color-bg-main: #ffffff;
 $color-bg-contrast: #f3f3f3;
 
+$width-tablet: 1300px;
+$width-desktop: 1673px;
+
 @mixin reset-list {
   list-style: none;
   margin: 0;

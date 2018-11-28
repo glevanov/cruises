@@ -29,3 +29,24 @@
 .intro__logo {
   margin-top: 25px;
 }
+
+@media (min-width: $width-tablet) {
+  .intro {
+    background-image: url("../img/top-tab.jpg");
+    min-height: 600px;
+  }
+
+  .intro__heading {
+    width: 100%;
+    font-size: 26px;
+
+    &--accent {
+      font-size: 72px;
+      line-height: 48px;
+    }
+  }
+
+  .intro__logo {
+    margin-top: 143px;
+  }
+}
