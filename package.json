@@ -20,6 +20,9 @@
     "url": "https://github.com/glevanov/cruises/issues"
   },
   "homepage": "https://github.com/glevanov/cruises#readme",
+  "browserslist": [
+    "last 2 version"
+  ],
   "devDependencies": {
     "autoprefixer": "^9.3.1",
     "babel-core": "^6.26.3",

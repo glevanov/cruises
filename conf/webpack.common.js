@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         test: /\.nojekyll$/,
-        loader: "file-loader?name=[name]",
+        loader: "file-loader?name=[name]"
       }
     ]
   },
