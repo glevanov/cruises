@@ -126,6 +126,8 @@
 
   .card__content {
     min-height: 236px;
+    margin-left: 38px;
+    margin-right: 45px;
   }
 
   .card__image {
@@ -147,5 +149,9 @@
     &--novorossiysk {
       background-image: url("../img/4-novorossiysk-tab.jpg");
     }
+  }
+
+  .card__tag {
+    right: 32px;
   }
 }

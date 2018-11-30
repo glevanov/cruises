@@ -8,6 +8,7 @@
 
 @media (min-width: $width-tablet) {
   .header {
-    left: calc(50% - 720px / 2)
+    left: calc(50% - 720px / 2);
+    top: 23px;
   }
 }

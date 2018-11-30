@@ -25,7 +25,8 @@
 
 .catalog__sort {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
+  margin-top: -7px;
 
   @include text-style(14px, 24px, $color-text-main, 400, $font-stack-accent);
 
@@ -66,9 +67,17 @@
 }
 
 @media (min-width: $width-tablet) {
+  .catalog {
+    padding-top: 50px;
+  }
+
   .catalog__heading {
     font-size: 26px;
     line-height: 48px;
+
+    &::before {
+      top: -250px;
+    }
   }
 
   .catalog__button {
