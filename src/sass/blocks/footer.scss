@@ -56,6 +56,10 @@
     @include reset-list;
   }
 
+  .footer__navigation-item {
+    @include text-style(14px, 24px, $color-text-main, 400, $font-stack-accent);
+  }
+
   .footer__tel {
     margin-top: 0;
   }
