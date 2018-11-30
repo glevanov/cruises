@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .navigation__list {
@@ -22,7 +23,7 @@
   .navigation__item {
     margin: 0;
 
-    @include text-style(14px, 48px, 400, $color-text-main, $font-stack-accent);
+    @include text-style(14px, 48px, $color-text-main, 400, $font-stack-accent);
 
     &::after {
       content: "";
