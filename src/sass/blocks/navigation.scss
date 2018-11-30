@@ -25,6 +25,11 @@
 
     @include text-style(14px, 48px, $color-text-main, 400, $font-stack-accent);
 
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
     &::after {
       content: "";
       right: -7px;

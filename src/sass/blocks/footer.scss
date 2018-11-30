@@ -62,6 +62,15 @@
     @include text-style(14px, 24px, $color-text-main, 400, $font-stack-accent);
   }
 
+  .footer__navigation-link {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
   .footer__tel {
     margin-top: 0;
   }
