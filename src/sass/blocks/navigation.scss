@@ -18,4 +18,49 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .navigation__item {
+    margin: 0;
+
+    @include text-style(14px, 48px, 400, $color-text-main, $font-stack-accent);
+
+    &::after {
+      content: "";
+      right: -7px;
+      top: 0;
+      display: inline-block;
+      position: relative;
+      width: 5px;
+      height: 8px;
+      transform: rotate(90deg);
+
+      @include svg-triangle($color-text-main);
+    }
+
+    &--cabinet {
+      &::before {
+        content: "";
+        left: -7px;
+        top: 0;
+        display: inline-block;
+        position: relative;
+        width: 10px;
+        height: 12px;
+        background-image: url("../img/icon-user.png");
+      }
+    }
+
+    &--currency {
+      &::before {
+        content: "";
+        left: -7px;
+        top: 0;
+        display: inline-block;
+        position: relative;
+        width: 10px;
+        height: 12px;
+        background-image: url("../img/icon-rub.png");
+      }
+    }
+  }
 }
