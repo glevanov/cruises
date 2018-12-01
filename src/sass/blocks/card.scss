@@ -155,3 +155,53 @@
     right: 32px;
   }
 }
+
+@media (min-width: $width-desktop) {
+  .card {
+    width: 555px;
+  }
+
+  .card__content {
+    min-height: 192px;
+  }
+
+  .card__heading {
+    width: 100%;
+  }
+
+  .card__image {
+    &--anapa {
+      height: 437px;
+      background-size: 555px 437px;
+      background-image: url("../img/1-anapa-dsk.jpg");
+    }
+
+    &--sochi {
+      height: 113px;
+      background-size: 555px 113px;
+      background-image: url("../img/2-sochi-dsk.jpg");
+    }
+
+    &--gelendzhik {
+      height: 113px;
+      background-size: 555px 113px;
+      background-image: url("../img/3-gelendzhik-dsk.jpg");
+    }
+
+    &--novorossiysk {
+      height: 215px;
+      background-size: 555px 215px;
+      background-image: url("../img/4-novorossiysk-dsk.jpg");
+    }
+
+    &--abrau {
+      height: 215px;
+      background-size: 555px 215px;
+      background-image: url("../img/5-abrau-dsk.jpg");
+    }
+  }
+
+  .card__tag {
+    right: 45px;
+  }
+}

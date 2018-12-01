@@ -2,15 +2,13 @@
   @include reset-list;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .feed__item {
-  margin-bottom: 20px;
-
-  &:last-of-type {
-    margin-bottom: 0;
+  &--last {
+    display: none;
   }
 }
 
@@ -23,5 +21,21 @@
 
   .feed__item {
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: $width-desktop) {
+  .feed {
+    grid-gap: 20px 30px;
+  }
+
+  .feed__item {
+    &--big {
+      grid-row: auto / span 2;
+    }
+
+    &--last {
+      display: list-item;
+    }
   }
 }
