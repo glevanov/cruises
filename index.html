@@ -22,7 +22,7 @@
         <li class="navigation__list-item">
           <div class="tel">
             <p class="tel__number">8 800 500-61-05</p>
-            <p class="tel__message">Круглосуточная поддержка</p>
+            <p class="tel__message tel__message--header">Круглосуточная поддержка</p>
           </div>
         </li>
       </ul>
@@ -32,8 +32,10 @@
   <main>
     <section class="intro">
       <picture class="intro__logo">
+        <source srcset="img/logo-dsk.webp" type="image/webp" media="(min-width: 1673px)">
+        <source srcset="img/logo-dsk.png" type="image/png" media="(min-width: 1673px)">
         <source srcset="img/logo-mobile.webp" type="image/webp">
-        <img src="img/logo-mobile.png" alt="Логотип Морские круизы" width="70" height="70">
+        <img src="img/logo-mobile.png" alt="Логотип Морские круизы">
       </picture>
       <h1 class="intro__heading">
         Морские прогулки<br>
@@ -155,9 +157,15 @@
 
   <footer class="footer">
     <ul class="footer__navigation">
-      <li class="footer__navigation-item">Вход для партнеров</li>
-      <li class="footer__navigation-item">О компании</li>
-      <li class="footer__navigation-item">Контакты</li>
+      <li class="footer__navigation-item">
+        <a class="footer__navigation-link">Вход для партнеров</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a class="footer__navigation-link">О компании</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a class="footer__navigation-link">Контакты</a>
+      </li>
     </ul>
 
     <div class="footer__social-wrap">
