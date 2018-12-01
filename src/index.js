@@ -2,6 +2,8 @@ import "./.nojekyll";
 import "./sass/main.scss";
 import "./img/logo-mobile.webp";
 import "./img/logo-mobile.png";
+import "./img/logo-dsk.webp";
+import "./img/logo-dsk.png";
 import "./img/social-insta.png";
 import "./img/social-insta.webp";
 import "./img/social-ok.png";

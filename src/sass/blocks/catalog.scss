@@ -85,3 +85,27 @@
     margin-bottom: 62px;
   }
 }
+
+@media (min-width: $width-desktop) {
+  .catalog {
+    padding-top: 105px;
+  }
+
+  .catalog__heading {
+    font-size: 36px;
+    margin-bottom: 5px;
+
+    &::before {
+      top: -305px;
+      width: 163px;
+      height: 300px;
+      left: calc(50% - 180px / 2);
+      background-image: url("../img/dots-dsk.png");
+    }
+  }
+
+  .catalog__sort {
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
+}

@@ -4,7 +4,7 @@
 
 @media (min-width: $width-tablet) {
   .navigation {
-    width: 720px;
+    width: $wrap-width-tablet;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,5 +68,11 @@
         background-image: url("../img/icon-rub.png");
       }
     }
+  }
+}
+
+@media (min-width: $width-desktop) {
+  .navigation {
+    width: $wrap-width-desktop;
   }
 }

@@ -51,3 +51,23 @@
     margin-top: 143px;
   }
 }
+
+@media (min-width: $width-desktop) {
+  .intro {
+    background-image: url("../img/top-dsk.jpg");
+    min-height: 648px;
+  }
+
+  .intro__heading {
+    font-size: 36px;
+
+    &--accent {
+      font-size: 100px;
+      line-height: 165px;
+    }
+  }
+
+  .intro__logo {
+    margin-top: 85px;
+  }
+}
