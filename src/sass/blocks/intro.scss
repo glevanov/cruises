@@ -30,9 +30,14 @@
   margin-top: 25px;
 }
 
-@media (min-width: $width-tablet) {
+@media (min-width: $width-semi-tab) {
   .intro {
     background-image: url("../img/top-tab.jpg");
+  }
+}
+
+@media (min-width: $width-tablet) {
+  .intro {
     min-height: 600px;
   }
 
