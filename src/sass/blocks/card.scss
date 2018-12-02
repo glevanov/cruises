@@ -84,6 +84,11 @@
   &:hover .card__tag--accent {
     @include svg-tag(darken($color-tag-accent, 10%));
   }
+
+  &:hover,
+  &:focus {
+    filter: brightness(0.95);
+  }
 }
 
 .card__tag {
